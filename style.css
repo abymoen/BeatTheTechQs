@@ -1,0 +1,60 @@
+.logo {
+    height: 3em;
+    margin-top: 1em;
+    margin-left: 0.5em;
+    padding-bottom:0.4em 
+
+}
+
+.nav li {
+    color: #000000 !important;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    margin-right: 2em;
+    padding: 0.2em 0;
+    margin-left: 0.6em
+}
+.nav li:hover{
+    border-bottom: 1px solid black;
+    padding-bottom: 0.15em;
+}
+
+.jumbotron {
+    background-color: white;
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%
+}
+
+.jumbotron h1 {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+
+}
+
+.navbar-form {
+    margin-top: 0.8em;
+}
+
+.body-image {
+    height: 12em;
+    width: 14em;
+}
+
+.col-md-6 {
+    text-align: center
+}
+
+.link-btn {
+    color: white;
+    background: orange;
+    border: none;
+}
+
+.link-btn:hover {
+    color: black;
+    background: white;
+}
+
