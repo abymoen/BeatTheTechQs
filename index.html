@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <nav role="navigation" class="navbar navbar-default">
+        <nav role="navigation" class="navbar navbar-default nav-header">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="brand" href="#"><img src="images/title.png" class="logo"></a>
@@ -25,9 +25,9 @@
                 </div>
                 <div class="navbar-collapse collapse" id="navbarCollapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Tutorials</a></li>
-                        <li><a href="#">Questions</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="basics.html">Basics</a></li>
+                        <li><a href="questions.html">Practice Questions</a></li>
                         <li><a href="player.html">Contact</a></li>
                     </ul>
                     <form class="navbar-form navbar-right" role="search">
@@ -40,29 +40,55 @@
             </div>
         </nav>
         
-        <div class="jumbotron">
-            <div class="container">
-                <h1>Hone skills for interview questions</h1>
+        <div class="start">
+            <div class="jumbotron">
+                <div class="container">
+                    <h1>Hone skills for interview questions</h1>
+                </div>
             </div>
         </div>
-        
         <div class="icons">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-6 icon-right">
                         <img src="images/java.png" class="body-image java-image">
                         <h2>Basics</h2>
                         <p>Get to know the basics of Java programming to kick start your programming journey</p>
-                        <button type="button" class="btn btn-default link-btn">Go To Basics<a href="#"></a></button>
+                        <a href="basics.html">
+                            <button type="button" class="btn btn-default link-btn">Go To Basics</button>
+                        </a>
                     </div>
                     <div class="col-md-6">
                         <img src="images/computer.png" class="body-image computer-image">
-                        <h2>Questions</h2>
+                        <h2>Practice Questions</h2>
                         <p>Step by step solutions with video and commentary</p>
-                        <button type="button" class="btn btn-default link-btn">Go To Questions<a href="#"></a></button>
+                        <a href="questions.html">
+                            <button type="button" class="btn btn-default link-btn">Go To Questions</button>
+                        </a>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="container divider"></div>
+        
+        <div class="container intro-video-container">
+            <h3 class="intro-title">Welcome to BeatTheTechQs</h3>
+            <video controls width="70%">
+                <source src="videos/logo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        
+        <div class="footer">
+            <a href="https://github.com/BeatTheTechQs" target="_blank">
+                <img class="footer-image git-image" src="images/github.png">
+            </a>
+            
+            <a href="https://www.facebook.com/beatthetechqs/" target="_blank">
+                <img clas="footer-image facebook-image" src="images/facebook.png">
+            </a>
+            
+            <p>Any questions or concerns can be emailed to "-----------"</p>
         </div>
         
         <script src="js/bootstrap.js"></script>
