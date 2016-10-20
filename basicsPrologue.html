@@ -11,11 +11,11 @@
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <nav role="navigation" class="navbar navbar-default nav-header">
+    <body class="player-body">
+        <nav role="navigation" class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="brand" href="#"><img src="images/title.png" class="logo"></a>
+                    <a class="brand" href="index.html"><img src="images/title.png" class="logo"></a>
                     <button type="button" class="navbar-toggle" data-target="#navbarCollapse" data-toggle="collapse">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
@@ -50,44 +50,49 @@
                 </div>
             </div>
         </nav>
-        
-        <div class="start">
-            <div class="jumbotron">
-                <div class="container">
-                    <h1>Hone skills for interview questions</h1>
-                </div>
+
+        <div class="content-basics container">
+            <div class="chapter-header">
+                <h2>Prologue</h2>
+                <h4>Getting your work station prepared for writing and executing programs in Java</h4>
             </div>
-        </div>
-        <div class="icons">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 icon-right">
-                        <img src="images/java.png" class="body-image java-image">
-                        <h2>Basics</h2>
-                        <p>Get to know the basics of Java programming to kick start your programming journey</p>
-                        <a href="basicsPrologue.html">
-                            <button type="button" class="btn btn-default link-btn">Go To Basics</button>
-                        </a>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="images/computer.png" class="body-image computer-image">
-                        <h2>Practice Questions</h2>
-                        <p>Step by step solutions with video and commentary</p>
-                        <a href="questionsSort.html">
-                            <button type="button" class="btn btn-default link-btn">Go To Questions</button>
-                        </a>
-                    </div>
+            
+            <div class="chapter-content">
+                <div class="video-section">
+                    <a href="player.html" target="_blank">Introduction</a>
+                    <p>Covers the overview of the Basics section and what you will learn from the videos</p>
+                    <a href="player.html" target="_blank">                    
+                        <img src="images/thumbnailintro.PNG">
+                    </a>
                 </div>
+                
+                <div class="border-split"></div>
+                
+                <div class="video-section">
+                    <a href="player.html" target="_blank">Preparing Your Work Station</a>
+                    <p>How to install eclipse and the JDK for use on your computer</p>
+                    <a href="player.html" target="_blank">                    
+                        <img src="images/thumbnail.PNG">
+                    </a>
+                </div>
+                
+                <div class="border-split"></div>
+                
+                <div class="video-section">
+                    <a href="player.html" target="_blank">First Program</a>
+                    <p>Create and run your very first Java program<p>
+                    <a href="player.html" target="_blank">                    
+                        <img src="images/thumbnail.PNG">
+                    </a>
+                </div>
+                <div class="border-split"></div>
             </div>
-        </div>
-        <div class="container divider"></div>
-        
-        <div class="container intro-video-container">
-            <h3 class="intro-title">Welcome to BeatTheTechQs</h3>
-            <video controls width="70%">
-                <source src="videos/logo.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <div class="page-changer container">
+                <a href="basicsChapterOne.html">
+                    <h3>Next Chapter</h3>
+                </a>
+                <h3 style="color: grey">Previous Chapter</h3>
+            </div>
         </div>
         
         <div class="ending-pad"></div>
@@ -103,9 +108,8 @@
             
             <p>Any questions or concerns can be emailed to "-----------"</p>
         </div>
-        
         <script src="js/bootstrap.js"></script>
         <script src="js/jquery-3.1.1.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>
-</html>    
+</html>

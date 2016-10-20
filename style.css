@@ -1,3 +1,7 @@
+body {
+    height: 100%;
+    position: relative;
+}
 
 .logo {
     height: 3em;
@@ -53,12 +57,8 @@
     width: 14em;
 }
 
-.computer-image {
-    margin-top: 2.2em;
-}
-
 .java-image {
-    padding-left: 1em;;
+    padding-left: 1em;
 }
 
 .col-md-6 {
@@ -78,6 +78,9 @@
     margin-bottom: 2em;
 }
 
+.java-image {
+ margin-left: 1.2em;   
+}
 .link-btn {
     color: white;
     background: orange;
@@ -111,12 +114,14 @@
 }
 
 .footer {
-    margin-top: 3em;
-    margin-bottom: 1em;
-    border-top: 1px solid #CCCCCC;
+    margin-top: 1em;
     height: contain;
     text-align: center;
     font-family: monospace;
+    background-color: lightgrey;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 .footer-image {
@@ -138,7 +143,7 @@
 }
 
 .chapter-header h2 {
-    color: #F7931E;
+    color: #000000;
     margin-left: 1em;
 }
 
@@ -148,10 +153,93 @@
 
 .chapter-content {
     margin-left: 4em;
+    margin-right: 4em;
 }
 
 .chapter-content a {
     color: #F7931E;
     cursor: pointer;
+    font-size: 1.3em;
+    letter-spacing: 1px;
 }
 
+.chapter-content a:hover {
+    color: #F7931E;
+    cursor: pointer;
+}
+
+.video-section {
+    margin-top: 0.7em;
+}
+
+.video-section img {
+    height: 7em;
+    opacity: 0.8;
+    border: 1px solid grey;
+}
+
+.video-section img:hover {
+    opacity: 1;
+    border: 2px solid black;
+}
+
+.video-section a:hover {
+    cursor: pointer;
+}
+
+.border-split {
+    border: 1px dotted grey;
+    margin-top: 1em;
+}
+
+.page-changer {
+    margin-top: 1em; 
+    text-align: center;
+    width: 20em;
+}
+
+.page-changer a { 
+    color: black;
+}
+
+.ending-pad {
+    margin-bottom: 10em;
+}
+
+.dropdown-menu li a:hover {
+    background: #FFFFFF;
+    color: #F7931E;
+}
+
+.dropdown-menu li {
+    transition: font-size 0.15s linear 0s;
+}
+
+.dropdown-menu li:hover {
+    background: #FFFFFF;
+    color: #F7931E;
+    border-left: 3px solid black;
+    border-bottom: none;
+    font-size: 1.5em;
+}
+
+@media (min-width: 800px) {
+    
+    .dropdown .dropdown-menu {
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        max-height: 300px;
+        opacity: 1;
+    }
+}
